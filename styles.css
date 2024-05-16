@@ -753,9 +753,12 @@ form {
 .form-check-label label {
   padding-left: 50px;
 }
-
+.form-control {
+  margin-bottom: 10px;
+}
 .label1 {
   padding-left: 0px;
+  padding-bottom: 10px;
 }
 
 /* PURCHASE */
