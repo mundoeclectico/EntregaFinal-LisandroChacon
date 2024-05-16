@@ -62,42 +62,12 @@ $alto1: 200px;
 
 $artype: chainmail;
 
-// .ejemplo4{
-//     height: 80px;
-//     width: 100%;
-//     background-color: $color1;
-//     font-size: 25px;
-
-//     ul{
-//         list-style: none;
-
-//             li{
-//                 display: inline-block;
-//                 background-color: #456384;
-//                 padding: 5px 10px;
-//                 border-radius: 7px;
-
-//                 a{
-//                     color: $color5;
-//                     text-decoration: none;
-//                 }
-//             }
-
-//             li:nth-child(2) {
-//                 background-color: #59ff00;
-//             }
-//     }
-// }
-
 body{
     padding-top: 125px;
 }
 .navbar-toggler{
     padding: 0px !important;
     padding-right: 10px;
-}
-.container-fluid{
-    
 }
 .navbar{
     background-color: #152231;
@@ -195,13 +165,6 @@ h2{
     margin-bottom: 0px;  
     text-align: center; 
 }
-.nleft{
-    background-image: url(./MULTIMEDIA/products/malon1.png);
-    filter: grayscale(100%);
-    background-size: cover;
-    background-position: center;
-    height: 500px;
-}
 h3{
     color: $color4;
     font-family: BISKIT;
@@ -219,6 +182,14 @@ h3{
     padding-left: 50px;
     padding-right: 50px;
 }
+// .expro{
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr;
+//     height: $alto1;
+// }
+// .expro p{
+//     text-align: center;
+// }
 article{
     height: 400px;
     text-align: right;
@@ -724,15 +695,6 @@ h6{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-/* .form-check p{
-    text-align: left;
-    margin: 0px;
-    padding: 0px;
-    color: black;
-    font-size: 15px;
-    margin-left: 0px !important;
-    width: ;
-} */
 .form-check .form-check-input{
     margin-left: 8px;
 }
@@ -788,76 +750,3 @@ h5.thankyou{
     height: 400px;
     align-content: center;
 }
-/* SASS */
-
-// .ejemplo1 {
-//     background-color: $color4;
-//     width: $var1;
-//     height: calc($alto1);
-//     display: grid;
-//     grid-template-columns: 1fr 1fr 1fr;
-//     text-align: center;
-
-//     h6{
-//         text-align: right;
-//         padding-right: 50px;
-//         color: $color6;
-//     }
-// }
-
-// @media (max-width: 500px) {
-//     .ejemplo1 {
-//         grid-template-columns: 1fr;
-//     }
-// }
-
-// .ejemplo2 {
-//     background-color: $color4;
-//     width: $var1;
-//     height: calc($alto1*2);
-//     display: grid;
-//     grid-template-columns: 1fr 1fr 1fr;
-//     text-align: center;
-// }
-// .ejemplo2 h6{
-//     text-align: right;
-//     padding-right: 50px;
-//     color: $color6;
-// }
-// @media (max-width: 500px) {
-//     .ejemplo2 {
-//         grid-template-columns: 1fr;
-//     }
-// }
-
-// .ejemplo2 {
-//     @if $artype == bolt {
-//         display: grid;
-//         grid-template-columns: 1fr 1fr 1fr;
-//         height: calc(#{$alto1 * 2});
-//         text-align: center;
-//     }
-//     @else if $artype == chainmail {
-//         display: grid;
-//         grid-template-columns: 1fr 1fr 1fr;
-//         height: $alto1;
-//         text-align: center;
-//     }
-// }
-
-
-// .bolt{
-//     background-image: url(./MULTIMEDIA/fotosmalon/facu2.jpg);
-//     background-position: center;
-//     background-size: cover;
-// }
-// .chainmail{
-//     background-image: url(./MULTIMEDIA/fotosmalon/facu2.jpg);
-//     background-position: center;
-//     background-size: cover;
-// }
-// .bundle{
-//     background-image: url(./MULTIMEDIA/fotosmalon/facu2.jpg);
-//     background-position: center;
-//     background-size: cover;
-// }
