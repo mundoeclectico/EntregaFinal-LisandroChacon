@@ -38,6 +38,10 @@
   font-family: NAUTICA;
 }
 
+body {
+  padding-top: 125px;
+}
+
 .navbar-toggler {
   padding: 0px !important;
   padding-right: 10px;
@@ -48,6 +52,10 @@
   padding-top: 0px !important;
   padding-bottom: 0px !important;
   padding-right: 30px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .navbar-collapse.collapse.show {
@@ -85,7 +93,7 @@ a.navbar-brand:hover {
   background-position: center right;
   background-size: cover;
   align-content: top;
-  height: 100vh;
+  height: calc(100vh - 125px);
   color: #152231;
 }
 
@@ -753,12 +761,9 @@ form {
 .form-check-label label {
   padding-left: 50px;
 }
-.form-control {
-  margin-bottom: 10px;
-}
+
 .label1 {
   padding-left: 0px;
-  padding-bottom: 10px;
 }
 
 /* PURCHASE */

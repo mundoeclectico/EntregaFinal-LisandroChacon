@@ -89,6 +89,9 @@ $artype: chainmail;
 //     }
 // }
 
+body{
+    padding-top: 125px;
+}
 .navbar-toggler{
     padding: 0px !important;
     padding-right: 10px;
@@ -101,6 +104,10 @@ $artype: chainmail;
     padding-top: 0px !important;
     padding-bottom: 0px !important;
     padding-right: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 .navbar-collapse.collapse.show{
     padding-bottom: 15px;
@@ -131,7 +138,7 @@ a.navbar-brand:hover{
     background-position:center right;
     background-size:cover;
     align-content: top;
-    height: 100vh;
+    height: calc(100vh - 125px);
     color: #152231;
 }
 .nleft1{
@@ -247,6 +254,7 @@ article{
         background-image: url(./MULTIMEDIA/fotosaccesorios/img#{$i}.png);
     }
 }
+
 .item:hover{
     background-size: 125%;
 }
