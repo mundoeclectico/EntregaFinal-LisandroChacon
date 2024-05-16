@@ -58,34 +58,29 @@
                     <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Tell us what we can do for you..."></textarea>
                     <a href="shipping.html">
                         <button type="button" class="btn btn-primary btn-sm">shipping</button>
-                    </a>
+                    </a>                    
                 </div>
         </div>
         <footer>
-            <div class="redes">
-                <a href="mailto:lisandrochacon89@gmail.com">
-                    <i class="fa-solid fa-envelope"></i>
-                </a>
-                <a href="https://www.instagram.com/malononline/">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-                <a href="https://wa.me/4571851189">
-                    <i class="fa-brands fa-whatsapp"></i>
-                </a>
-                <p>all the copyright reserved</p>
-            </div>
-        </footer>
+        <div class="redes">
+            <a href="mailto:lisandrochacon89@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://www.instagram.com/malononline/">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://wa.me/4571851189">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <p>all the copyright reserved</p>
+        </div>
+    </footer>
     <script>
-        // Función para obtener los parámetros de la URL
         function getQueryParam(param) {
         const urlParams = new URLSearchParams(window.location.search);
         return urlParams.get(param);
         }
-    
-        // Obtener el parámetro 'product' de la URL
         const product = getQueryParam('product');
-    
-        // Seleccionar el div y cambiar la imagen según el producto
         const nleft2Div = document.querySelector('.nleft2');
         if (product) {
         nleft2Div.style.backgroundImage = `url(../MULTIMEDIA/products/${product}.png)`;

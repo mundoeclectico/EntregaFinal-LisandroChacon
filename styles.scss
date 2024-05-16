@@ -94,7 +94,7 @@ $artype: chainmail;
     padding-right: 10px;
 }
 .container-fluid{
-    padding-right: 10px !important;
+    
 }
 .navbar{
     background-color: #152231;
@@ -184,8 +184,9 @@ h2{
     color: $color6 ;
     background-color: $color2;
     padding: 10px;
-    padding-left: 50px; 
-    margin-bottom: 0px;   
+    // padding-left: 50px; 
+    margin-bottom: 0px;  
+    text-align: center; 
 }
 .nleft{
     background-image: url(./MULTIMEDIA/products/malon1.png);
@@ -394,7 +395,7 @@ footer i:hover{
 .text1{
     height: auto;
     align-content: center;
-    text-align: left;
+    text-align: center;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 15px;
@@ -407,16 +408,16 @@ footer i:hover{
 .text1 p{
     margin-bottom: 0px;
     font-size: 25px;
+    text-align: center;
 }
 p.p1{
     font-size: 15px;
-    text-align: left;
     color: $color6;
 }
 .text2{
     height: auto;
     align-content: center;
-    text-align: left;
+    text-align: center;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 15px;
@@ -432,14 +433,13 @@ p.p1{
 }
 p.p2{
     font-size: 15px;
-    text-align: left;
     padding-right: 40px;
-    color: #fff;
+    color: $color6;
 }
 .text3{
     height: auto;
     align-content: center;
-    text-align: left;
+    text-align: center;
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 15px;
@@ -455,9 +455,8 @@ p.p2{
 }
 p.p3{
     font-size: 15px;
-    text-align: left;
     padding-right: 40px;
-    color: #fff;
+    color: $color6;
 }
 .fa-solid.fa-cart-shopping{
     font-size: 50px; 
@@ -774,7 +773,7 @@ h6{
     align-content: center;
     height: 600px;
 }
-/* THANK YOU */
+/* FINISH */
 h5.thankyou{
     color: #ff59bf;
 }
