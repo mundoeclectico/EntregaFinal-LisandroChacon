@@ -12,7 +12,6 @@
     <link rel="stylesheet" href="../styles.css" />
     <title>PRODUCTS</title>
 </head>
-
 <body>
     <nav class="navbar navbar-expand-sm  navbar-dark">
         <div class="container-fluid">
@@ -23,7 +22,13 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav">
                     <li class="nav-item">
+                        <a class="nav-link" href="aboutme.html">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="product.html">PRODUCTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="custom.html">CUSTOM</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="galery.html">GALLERY</a>
@@ -36,76 +41,343 @@
         </div>
     </nav>
     <h2>PRODUCTS</h2>
-    <div class="container-fluid feature">
-        <div class="row">
-            <article class="text1">
-                <p>BOLT</p>
-                <p class="p1">Our bolt jewelry transforms industrial bolts into striking accessories, perfect for the techno scene. Rugged and edgy, each piece stands out in any crowd.</p>
-            </article>
-            <article class="photo1 col-sm-4">
-                <h4 class="product1">MALON I</h4>
-                <a href="purchase.html?product=malon1">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </a>            
-            </article>  
-            <article class="photo4 col-sm-4">
-                <h4 class="product1">MALON II</h4>
-                <a href="purchase.html?product=malon2">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </a>                     
-            </article>
-            <article class="photo7 col-sm-4">
-                <h4 class="product1">MALON III</h4>
-                <a href="purchase.html?product=malon3">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </a>            
-            </article>
-            <article class="text2">
-                <p>chainmail</p>
-                <p class="p2">Handwoven from durable metal rings, our chainmail jewelry offers a bold, industrial look. Perfect for adding an edge to your techno style.</p>
-            </article>
-            <article class="photo2 col-sm-4">
-                <h4 class="product1">MALON IV</h4>
-                <a href="purchase.html?product=malon4">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </a>            
-            </article>
-            <article class="photo5 col-sm-4">
-                <h4 class="product1">MALON V</h4>
-                <a href="purchase.html?product=malon5">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </a>            
-            </article>
-            <article class="photo8 col-sm-4">
-                <h4 class="product1">MALON VI</h4>
-                <a href="purchase.html?product=malon6">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </a>            
-            </article>
-            <article class="text3">
-                <p>bundle</p>
-                <p class="p3">Our bundles combine bolts, chainmail, and stainless steel for a unique, industrial mix. Perfect for techno lovers, each piece merges rugged, intricate, and sleek elements for a standout look.</p>
-            </article>       
-            </article> 
-            <article class="photo3 col-sm-4">
-                <h4 class="product1">BUNDLE I</h4>
-                <a href="purchase.html?product=malon7">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </a>                       
-            </article>
-            <article class="photo9 col-sm-4">
-                <h4 class="product1">BUNDLE II</h4>
-                <a href="purchase.html?product=malon8">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </a>            
-            </article>
-            <article class="photo6 col-sm-4">
-                <h4 class="product1">BUNDLE III</h4>
-                <a href="purchase.html?product=malon9">
-                    <i class="fa-solid fa-cart-shopping"></i>
-                </a>            
-            </article>
-        </div>
+    <article class="text1">
+        <p>BOLT</p>
+        <p class="p1">Our bolt jewelry transforms industrial bolts into striking accessories, perfect for the techno scene. Rugged and edgy, each piece stands out in any crowd.</p>
+    </article>
+    <div class="ventanas">
+        <article class="ventana col-sm-4">
+            <div class="carousel-container">
+                <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../MULTIMEDIA/seleccion/malon1.jpg" alt="malon 1" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/1.jpg" alt="malon 1" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/12.jpg" alt="malon 1" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="cart-icon">
+                    <a href="purchasemalon1.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </article>
+        <article class="ventana col-sm-4">
+            <div class="carousel-container">
+                <div id="carousel2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../MULTIMEDIA/seleccion/malon2.jpg" alt="malon 2" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/2.jpg" alt="malon 2" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/22.jpg" alt="malon 2" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="cart-icon">
+                    <a href="purchase.html">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </article>
+        <article class="ventana col-sm-4">
+            <div class="carousel-container">
+                <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../MULTIMEDIA/seleccion/malon3.jpg" alt="malon 3" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/3.jpg" alt="malon 3" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/32.jpg" alt="malon 3" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="cart-icon">
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </article>
+    </div>
+    <article class="text1">
+        <p>BOLT</p>
+        <p class="p1">Handwoven from durable metal rings, our chainmail jewelry offers a bold, industrial look. Perfect for adding an edge to your techno style.</p>
+    </article>
+    <div class="ventanas">
+        <article class="ventana col-sm-4">
+            <div class="carousel-container">
+                <div id="carousel4" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../MULTIMEDIA/seleccion/malon4.jpg" alt="malon 4" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/4.jpg" alt="malon 4" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/42.jpg" alt="malon 4" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="cart-icon">
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </article>
+        <article class="ventana col-sm-4">
+            <div class="carousel-container">
+                <div id="carousel5" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel5" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel5" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel5" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../MULTIMEDIA/seleccion/malon5.jpg" alt="malon 5" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/5.jpg" alt="malon 5" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/52.jpg" alt="malon 5" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="cart-icon">
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </article>
+        <article class="ventana col-sm-4">
+            <div class="carousel-container">
+                <div id="carousel6" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel6" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel6" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel6" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../MULTIMEDIA/seleccion/malon6.jpg" alt="malon 3" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/6.jpg" alt="Chicago" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/62.jpg" alt="New York" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="cart-icon">
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </article>
+        <br>
+    </div>
+        <!-- <article class="ventana col-sm-12">
+            <div class="carousel-container">
+                <div id="carousel3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel10" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel10" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carousel10" data-bs-slide-to="2"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../MULTIMEDIA/seleccion/malon10.jpg" alt="choker" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/10a.jpg" alt="choker" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/10b.jpg" alt="chocker" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel10" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel10" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="cart-icon">
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </article> -->
+    <article class="text1">
+        <p>BUNDLES</p>
+        <p class="p1">Our bundles combine bolts, chainmail, and stainless steel for a unique, industrial mix. Perfect for techno lovers, each piece merges rugged, intricate, and sleek elements for a standout look.</p>
+    </article>
+    <div class="ventanas">
+        <article class="ventana col-sm-4">
+            <div class="carousel-container">
+                <div id="carousel7" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel7" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel7" data-bs-slide-to="1"></button>                        
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../MULTIMEDIA/seleccion/bundle1.jpg" alt="bundle 1" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/b2.jpg" alt="bundle 2" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="cart-icon">
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </article>
+        <article class="ventana col-sm-4">
+            <div class="carousel-container">
+                <div id="carousel8" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel8" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel8" data-bs-slide-to="1"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../MULTIMEDIA/seleccion/bundle2.jpg" alt="malon 5" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/b2.jpg" alt="malon 5" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel8" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel8" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="cart-icon">
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </article>
+        <article class="ventana col-sm-4">
+            <div class="carousel-container">
+                <div id="carousel9" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carousel9" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carousel9" data-bs-slide-to="1"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="../MULTIMEDIA/seleccion/bundle3.jpg" alt="bundle 3" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../MULTIMEDIA/seleccion/b3.jpg" alt="bundle 3" class="d-block w-100">
+                        </div>
+
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carousel9" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carousel9" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+                <div class="cart-icon">
+                    <a href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+            </div>
+        </article>
     </div>
     <footer>
         <div class="redes">

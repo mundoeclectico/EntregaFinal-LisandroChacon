@@ -42,6 +42,7 @@
 }
 *{
     font-family: NAUTICA;
+    font-size: 12px;
 }
 
 $color1: #152231;
@@ -51,6 +52,7 @@ $color4: #ff59bf;
 $color5: #83f9ff;
 $color6: #fff;
 $color7: #59ff00;
+$color8:red;
 
 $var1: 100%;
 $var2: 50%;
@@ -104,7 +106,7 @@ a.navbar-brand:hover{
     justify-content: flex-end;
 }
 .jumbotron{
-    background-image: url(./MULTIMEDIA/INICIO/tabata.png);
+    background-image: url(./MULTIMEDIA/seleccion/inicio1.png);
     background-position:center right;
     background-size:cover;
     align-content: top;
@@ -170,7 +172,7 @@ h3{
     font-family: BISKIT;
     font-size: 40px;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .nright{
     align-content: center;
@@ -181,6 +183,7 @@ h3{
     color: $color6;
     padding-left: 50px;
     padding-right: 50px;
+    padding-bottom: 15px;
 }
 // .expro{
 //     display: grid;
@@ -191,7 +194,7 @@ h3{
 //     text-align: center;
 // }
 article{
-    height: 400px;
+    // height: 400px;
     text-align: right;
 }
 .contenedor{
@@ -211,6 +214,20 @@ article{
     background-position: center;
     background-size: 85%;
     transition: all 0.9s;
+    align-content: center;
+}
+.item p{
+    text-align: center;
+    color: $color6;
+    font-size: 30px;
+    color: $color4;
+    margin-left: 75px;
+    margin-right: 75px;
+    transition: all 0.9s;
+}
+.item p:hover{
+    font-size: 40px;
+    color: $color7;
 }
 @for $i from 1 through 3 {
     .item#{$i} {
@@ -224,15 +241,15 @@ article{
         background-image: url(./MULTIMEDIA/fotosaccesorios/img#{$i}.png);
     }
 }
-
 .item:hover{
     background-size: 125%;
 }
 .item[style*="background-image"] {
     border-radius: 25px; 
 }
+
 article.foto1{
-    background-image: url(./MULTIMEDIA/products/2.png);
+    background-image: url(./MULTIMEDIA/seleccion/bolt.png);
     background-size: cover;
     background-position: center;
 }
@@ -245,9 +262,10 @@ article.foto1:hover{
     padding: 10px;
     border-radius: 25px;
     margin-right: 25px;
+    margin-bottom: 50px;
 }
 article.foto2{
-    background-image: url(./MULTIMEDIA/products/1.png);
+    background-image: url(./MULTIMEDIA/seleccion/chainmail.png);
     background-size: cover;
     background-position: center;
 }
@@ -259,7 +277,7 @@ article.foto2{
     margin-right: 25px;
 }
 article.foto3{
-    background-image: url(./MULTIMEDIA/products/3.png);
+    background-image: url(./MULTIMEDIA/seleccion/bundle.png);
     background-size: cover;
     background-position: center;
 }
@@ -370,6 +388,55 @@ footer i:hover{
     text-decoration: none;
 }
 /* PDODUCTS */
+.ventanas{
+    display: flex;
+}
+@media (max-width: 500px) {
+    .ventanas {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+.carousel-indicators{
+    top: 0 !important;
+}
+.carousel-inner img {
+    object-fit: cover;
+}
+.carousel-inner img{
+    filter: grayscale(100%);
+    height: 100%;
+    object-fit: cover;
+}
+.carousel-inner img:hover {
+    filter: none; 
+}
+.carousel-container {
+    position: relative;
+    max-width: 100%;
+}
+.cart-icon {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    z-index: 10;
+}
+.cart-icon a {
+    color: black;
+    text-decoration: none;
+}
+.cart-icon a:hover {
+    color: pink;
+}
+.fa-solid.fa-cart-shopping{
+    font-size: 30px; 
+}
+.fa-solid.fa-cart-shopping:hover{
+    background-color: #ff59bf00 !important;
+    color: $color4 !important;
+}
 .text1{
     height: auto;
     align-content: center;
@@ -389,7 +456,7 @@ footer i:hover{
     text-align: center;
 }
 p.p1{
-    font-size: 15px;
+    font-size: 12px;
     color: $color6;
 }
 .text2{
@@ -436,19 +503,18 @@ p.p3{
     padding-right: 40px;
     color: $color6;
 }
-.fa-solid.fa-cart-shopping{
-    font-size: 50px; 
-}
-.fa-solid.fa-cart-shopping:hover{
-    background-color: #ff59bf00 !important;
-    color: $color4 !important;
-}
+
 .photo1{
-    background-image: url(./MULTIMEDIA/products/malon1.png);
+    background-image: url(./MULTIMEDIA/seleccion/malon1.jpg);
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
 }
+.row>*{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
 .photo1:hover{
     filter: none;
 }
@@ -460,7 +526,7 @@ p.p3{
     margin-right: 30px;
 }
 .photo2{
-    background-image: url(./MULTIMEDIA/products/malon4.png);
+    background-image: url(./MULTIMEDIA/seleccion/malon4.jpg);
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
@@ -474,7 +540,7 @@ p.p3{
     filter: none;
 }
 .photo3{
-    background-image: url(./MULTIMEDIA/products/malon7.png);
+    background-image: url(./MULTIMEDIA/seleccion/bundle1.jpg);
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
@@ -487,7 +553,7 @@ p.p3{
     filter: none;
 }
 .photo4{
-    background-image: url(./MULTIMEDIA/products/malon2.png);
+    background-image: url(./MULTIMEDIA/seleccion/malon2.jpg);
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
@@ -500,7 +566,7 @@ p.p3{
     filter: none;
 }
 .photo5{
-    background-image: url(./MULTIMEDIA/products/malon5.png);
+    background-image: url(./MULTIMEDIA/seleccion/malon5.jpg);
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
@@ -513,7 +579,7 @@ p.p3{
     filter: none;
 }
 .photo6{
-    background-image: url(./MULTIMEDIA/products/malon9.png);
+    background-image: url(./MULTIMEDIA/seleccion/bundle3.jpg);
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
@@ -526,7 +592,7 @@ p.p3{
     filter: none;
 }
 .photo7{
-    background-image: url(./MULTIMEDIA/products/malon3.png);
+    background-image: url(./MULTIMEDIA/seleccion/malon3.jpg);
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
@@ -539,7 +605,7 @@ p.p3{
     filter: none;
 }
 .photo8{
-    background-image: url(./MULTIMEDIA/products/malon6.png);
+    background-image: url(./MULTIMEDIA/seleccion/malon6.jpg);
     background-position: center;
     background-size: cover;
     filter: grayscale(100%);
@@ -553,7 +619,7 @@ p.p3{
     filter: none;
 }
 .photo9{
-    background-image: url(./MULTIMEDIA/products/malon8.png);
+    background-image: url(./MULTIMEDIA/seleccion/bundle2.jpg);
     background-position: cente r;
     background-size: cover;
     filter: grayscale(100%);
@@ -671,13 +737,20 @@ form{
     padding-left: 0px;
 }
 /* PURCHASE */
-.nleft2{
-    background-image: url(./MULTIMEDIA/products/malon1.png);
+.nleftm1{
+    background-image: url(./MULTIMEDIA/seleccion/malon1.jpg);
     background-position: center;
     background-size: cover;
     height: 650px;
     filter: grayscale(100%);
 }
+// .nleft2{
+//     background-image: url(./MULTIMEDIA/products/malon1.png);
+//     background-position: center;
+//     background-size: cover;
+//     height: 650px;
+//     filter: grayscale(100%);
+// }
 .nright1{
     height: 650px;
     align-content: center;
