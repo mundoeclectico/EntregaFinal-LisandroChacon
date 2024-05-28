@@ -27,12 +27,16 @@
   src: url(./FONT/NovaRound-Book.ttf);
 }
 @font-face {
-  font-family: BISKIT;
+  font-family: ASTON;
   src: url(./FONT/Biysk.ttf);
 }
 @font-face {
   font-family: NAUTICA;
   src: url(./FONT/NauticaRounded-Regular.ttf);
+}
+@font-face {
+  font-family: ASTON;
+  src: url(./FONT/Astonpoliz.ttf);
 }
 @keyframes slideIn {
   from {
@@ -45,11 +49,12 @@
   }
 }
 * {
-  font-family: NAUTICA;
-  font-size: 12px;
+  font-family: ASTON;
+  font-size: 13px;
 }
 
 body {
+  font-family: ASTON;
   padding-top: 125px;
 }
 
@@ -74,7 +79,7 @@ body {
   font-size: 80px;
   padding-top: 5px !important;
   padding-bottom: 0px !important;
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 a.navbar-brand:hover {
@@ -94,6 +99,29 @@ a.navbar-brand:hover {
   justify-content: flex-end;
 }
 
+@media (max-width: 576px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 120px;
+    right: 0;
+    width: 100%;
+    background-color: #152231;
+    padding-right: 2rem;
+  }
+  .navbar-collapse.collapse.show {
+    display: block;
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+.rayita {
+  height: 2px;
+  background-color: #ff59bf;
+}
+
 .inicio1 {
   background-image: url(./MULTIMEDIA/seleccion/inicio1.png);
   background-position: center right;
@@ -107,12 +135,13 @@ a.navbar-brand:hover {
   font-size: 30px;
   margin-left: 10px;
   margin-right: 10px;
-  color: #59ff00;
-  text-align: left;
+  margin-top: 200px;
+  color: #49f543;
+  text-align: right;
 }
 
 .technoware {
-  font-family: BISKIT;
+  font-family: ASTON;
   margin-left: 8px;
   margin-top: 10px;
   font-size: 100px;
@@ -125,15 +154,17 @@ a.navbar-brand:hover {
 
 @media (max-width: 750px) {
   .inicio1 p {
-    font-size: 18px !important;
+    font-size: 13px !important;
+    margin-top: 0px;
+    text-align: left;
   }
   .technoware {
-    font-size: 40px !important;
+    font-size: 35px !important;
   }
 }
 h2 {
-  font-family: BISKIT;
-  font-size: 30px;
+  font-family: ASTON;
+  font-size: 15px;
   color: #fff;
   background-color: #2b3f54;
   padding: 10px;
@@ -143,8 +174,8 @@ h2 {
 
 h3 {
   color: #ff59bf;
-  font-family: BISKIT;
-  font-size: 40px;
+  font-family: ASTON;
+  font-size: 20px;
   text-align: center;
   margin-top: 20px;
 }
@@ -219,17 +250,17 @@ h3 {
 }
 
 .item4 {
-  background-color: #9bff66;
+  background-color: #a7faa4;
   background-image: url(./MULTIMEDIA/fotosaccesorios/img4.png);
 }
 
 .item5 {
-  background-color: #acff80;
+  background-color: #befbbc;
   background-image: url(./MULTIMEDIA/fotosaccesorios/img5.png);
 }
 
 .item6 {
-  background-color: #bdff99;
+  background-color: #d6fdd4;
   background-image: url(./MULTIMEDIA/fotosaccesorios/img6.png);
 }
 
@@ -257,7 +288,7 @@ h3 {
 
 .foto1 h4 {
   text-align: center;
-  color: #59ff00;
+  color: #49f543;
   padding-left: 0px !important;
 }
 
@@ -279,7 +310,7 @@ h3 {
 
 .foto2 h4 {
   text-align: center;
-  color: #59ff00;
+  color: #49f543;
   padding-left: 0px !important;
 }
 
@@ -301,7 +332,7 @@ h3 {
 
 .foto3 h4 {
   text-align: center;
-  color: #59ff00;
+  color: #49f543;
   padding-left: 0px !important;
 }
 
@@ -330,6 +361,13 @@ footer {
   font-size: 30px;
   padding: 10px;
 }
+footer .container-fluid {
+  padding: 0px;
+}
+
+.container-fluid.nosotros {
+  padding: 0px;
+}
 
 footer {
   padding-top: 20px;
@@ -341,6 +379,7 @@ footer p {
 
 footer i {
   color: #fff;
+  font-size: 25px;
 }
 
 footer i:hover {
@@ -355,6 +394,11 @@ footer i:hover {
 .ventanas {
   display: flex;
   overflow: hidden;
+}
+
+.products {
+  font-size: 50px;
+  color: #ff59bf;
 }
 
 @media (max-width: 500px) {
@@ -428,9 +472,9 @@ footer i:hover {
   padding-right: 50px;
   padding-bottom: 15px;
   padding-top: 15px;
-  font-family: NAUTICA;
+  font-family: ASTON;
   font-size: 30px;
-  color: #59ff00;
+  color: #49f543;
   background-color: #456384;
 }
 
@@ -453,9 +497,9 @@ p.p1 {
   padding-right: 50px;
   padding-bottom: 15px;
   padding-top: 15px;
-  font-family: NAUTICA;
+  font-family: ASTON;
   font-size: 30px;
-  color: #59ff00;
+  color: #49f543;
   background-color: #456384;
 }
 
@@ -478,9 +522,9 @@ p.p2 {
   padding-right: 50px;
   padding-bottom: 15px;
   padding-top: 15px;
-  font-family: NAUTICA;
+  font-family: ASTON;
   font-size: 30px;
-  color: #59ff00;
+  color: #49f543;
   background-color: #456384;
 }
 
@@ -490,6 +534,11 @@ p.p2 {
 }
 
 /* GALERY */
+.gallery1 {
+  font-size: 50px;
+  color: #ff59bf;
+}
+
 .carousel-item {
   height: 500px;
 }
@@ -689,17 +738,17 @@ form {
   }
 }
 .purchase {
-  height: 1350px;
+  height: 1450px;
 }
 
 @media (max-width: 750px) {
   .purchase {
-    height: 1800px;
+    height: 1900px;
   }
 }
 h5 {
   font-size: 40px;
-  font-family: BISKIT;
+  font-family: ASTON;
   color: #2b3f54;
   text-align: left;
   margin-left: 0px;
@@ -707,7 +756,7 @@ h5 {
 
 h6 {
   font-size: 20px;
-  font-family: BISKIT;
+  font-family: ASTON;
   color: #2b3f54;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -723,7 +772,7 @@ h6 {
 
 .form-check-input:checked {
   background-color: #ff59bf !important;
-  border-color: #59ff00;
+  border-color: #49f543;
 }
 
 .btn-primary {
@@ -733,39 +782,7 @@ h6 {
 
 .btn-primary:hover {
   background-color: #ff59bf;
-  border-color: #59ff00;
-}
-
-/* SHIPPING */
-.nright2 {
-  align-content: center;
-  height: 700px;
-}
-
-.nleft3 {
-  background-image: url(./MULTIMEDIA/products/malon1.png);
-  background-position: center;
-  background-size: cover;
-  height: 750px;
-  filter: grayscale(100%);
-}
-
-.form-check {
-  margin-right: 25px;
-}
-
-/* PAYMENTS */
-.nleft4 {
-  background-image: url(./MULTIMEDIA/products/malon1.png);
-  background-position: center;
-  background-size: cover;
-  height: 600px;
-  filter: grayscale(100%);
-}
-
-.nright3 {
-  align-content: center;
-  height: 400px;
+  border-color: #49f543;
 }
 
 /* FINISH */
@@ -786,17 +803,24 @@ h5.thankyou {
   filter: grayscale(100%);
 }
 
-.aboutme1 {
-  height: 900px;
+@media (max-width: 1200px) {
+  .aboutme1 {
+    height: 500px;
+  }
 }
-
 .aboutme2 {
-  height: auto;
+  height: 500px;
   align-content: center;
 }
 
+@media (max-width: 1200px) {
+  .aboutme2 {
+    height: 500px;
+  }
+}
 .aboutme2 h5 {
-  margin-top: 60px;
+  color: #ff59bf;
+  margin-top: 20px;
   margin-left: 25px;
 }
 
@@ -805,10 +829,11 @@ h5.thankyou {
   margin-left: 25px;
   margin-right: 25px;
   text-align: justify;
+  font-size: 20px;
 }
 
 .custom {
-  font-family: BISKIT;
+  font-family: ASTON;
   font-size: 30px;
   color: #fff;
   background-color: #2b3f54;
@@ -816,9 +841,25 @@ h5.thankyou {
   text-align: center;
 }
 .custom h3 {
-  padding-top: 25px;
+  padding-top: 15px;
   margin-top: 0px;
   text-align: center;
+}
+.custom p {
+  margin-top: 25px;
+}
+
+.customshop {
+  font-size: 75px;
+  background-color: #2b3f54;
+  margin: 0px;
+}
+
+.customform {
+  height: 450px;
+  align-content: center;
+  padding-left: 0px;
+  margin-right: 0px;
 }
 
 .patternsbox {
@@ -830,42 +871,318 @@ h5.thankyou {
   background-color: #2b3f54;
   text-align: center;
   height: 350px;
+  margin-bottom: 45px;
 }
 
 @media (max-width: 500px) {
   .patternsbox {
-    grid-template-columns: 1fr;
     height: 350px;
   }
 }
 .pattern1 h4 {
-  font-size: 20px;
+  font-size: 15px;
   padding: 0px;
   margin: 0px;
   text-align: center;
-  color: #59ff00;
+  color: #49f543;
+}
+
+.fotop1 {
+  background-image: url(./MULTIMEDIA/custom/customm1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-bottom: 15px;
+  filter: grayscale(100%);
+}
+
+.fotop1:hover {
+  filter: none;
 }
 
 .pattern2 h4 {
-  font-size: 20px;
+  font-size: 15px;
   padding: 0px;
   margin: 0px;
   text-align: center;
-  color: #59ff00;
+  color: #49f543;
+}
+
+.fotop2 {
+  background-image: url(./MULTIMEDIA/custom/customm2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-bottom: 15px;
+  filter: grayscale(100%);
+}
+
+.fotop2:hover {
+  filter: none;
 }
 
 .pattern3 h4 {
-  font-size: 20px;
+  font-size: 15px;
   padding: 0px;
   margin: 0px;
   text-align: center;
-  color: #59ff00;
+  color: #49f543;
+}
+
+.fotop3 {
+  background-image: url(./MULTIMEDIA/custom/customm3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-bottom: 15px;
+  filter: grayscale(100%);
+}
+
+.fotop3:hover {
+  filter: none;
 }
 
 .pattern4 h4 {
-  font-size: 20px;
+  font-size: 15px;
   padding: 0px;
   margin: 0px;
   text-align: center;
-  color: #59ff00;
+  color: #49f543;
+}
+
+.fotop4 {
+  background-image: url(./MULTIMEDIA/custom/customm4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-bottom: 15px;
+  filter: grayscale(100%);
+}
+
+.fotop4:hover {
+  filter: none;
+}
+
+.pattern5 h4 {
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: #49f543;
+}
+
+.fotop5 {
+  background-image: url(./MULTIMEDIA/custom/customm5.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-bottom: 15px;
+  filter: grayscale(100%);
+}
+
+.fotop5:hover {
+  filter: none;
+}
+
+.pattern6 h4 {
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: #49f543;
+}
+
+.fotop6 {
+  background-image: url(./MULTIMEDIA/custom/customm6.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-bottom: 15px;
+  filter: grayscale(100%);
+}
+
+.fotop6:hover {
+  filter: none;
+}
+
+.pattern7 h4 {
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: #49f543;
+}
+
+.fotop7 {
+  background-image: url(./MULTIMEDIA/custom/customm7.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-bottom: 15px;
+  filter: grayscale(100%);
+}
+
+.fotop7:hover {
+  filter: none;
+}
+
+.pattern8 h4 {
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: #49f543;
+}
+
+.fotop8 {
+  background-image: url(./MULTIMEDIA/custom/customm8.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  margin-bottom: 15px;
+  filter: grayscale(100%);
+}
+
+.patterns h4 {
+  margin-bottom: 15px;
+}
+
+.customtypes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 500px) {
+  .customtypes {
+    grid-template-columns: 1fr;
+  }
+}
+.neckbrace {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.neckbrace h4 {
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: #49f543;
+  margin-bottom: 15px;
+}
+
+.customlength {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.customlength h6 {
+  margin: 0px;
+  color: #49f543;
+}
+
+@media (max-width: 1000px) {
+  .customlength {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.finishing {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.closings {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 15px;
+}
+
+.closing1 {
+  height: 350px;
+}
+.closing1 h4 {
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: #49f543;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.fotoc1 {
+  background-image: url(./MULTIMEDIA/custom/closing2.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+  height: 250px;
+}
+
+.closing2 {
+  height: 350px;
+}
+.closing2 h4 {
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  color: #49f543;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.fotoc2 {
+  background-image: url(./MULTIMEDIA/custom/closing1.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(100%);
+  height: 250px;
+}
+
+.explain {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.explain h6 {
+  color: #49f543;
+  size: 15px;
+  margin-bottom: 15px;
+}
+.explain .form-control {
+  height: 250px;
+}
+
+@media (max-width: 1000px) {
+  .explain {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+@media (max-width: 500px) {
+  .finishing {
+    grid-template-columns: 1fr;
+  }
+}
+.personalinfo {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+.personalinfo h5 {
+  font-size: 25px;
+  text-align: center;
+  color: #49f543;
+}
+.personalinfo h6 {
+  font-size: 15px;
+  color: #fff;
+}
+.personalinfo input {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 750px) {
+  .personalinfo {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }/*# sourceMappingURL=styles.css.map */
