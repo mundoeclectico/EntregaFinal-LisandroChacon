@@ -142,6 +142,7 @@ a.navbar-brand:hover {
   margin-right: 10px;
   color: #49f543;
   text-align: left;
+  text-shadow: 1px 1px 5px #fff;
 }
 
 .technoware {
@@ -150,6 +151,7 @@ a.navbar-brand:hover {
   margin-top: 10px;
   font-size: 100px;
   color: #ff59bf;
+  text-shadow: 3px 3px 5px #fff;
 }
 
 .animated-element {
@@ -230,10 +232,12 @@ h3 {
   font-size: 30px;
   margin: 0 75px;
   transition: all 0.9s;
+  text-shadow: 2px 2px 5px #49f543;
 }
 
 .item6 p {
   color: #49f543;
+  text-shadow: 2px 2px 5px #ff59bf;
 }
 
 .item p:hover {
@@ -291,6 +295,9 @@ h3 {
   background-position: center;
   text-align: center;
 }
+.foto1 h4 {
+  text-shadow: 2px 2px 5px #ff59bf;
+}
 
 .foto1 h4 {
   text-align: center;
@@ -313,6 +320,9 @@ h3 {
   background-position: center;
   text-align: center;
 }
+.foto2 h4 {
+  text-shadow: 2px 2px 5px #ff59bf;
+}
 
 .foto2 h4 {
   text-align: center;
@@ -334,6 +344,9 @@ h3 {
   background-size: cover;
   background-position: center;
   text-align: center;
+}
+.foto3 h4 {
+  text-shadow: 2px 2px 5px #ff59bf;
 }
 
 .foto3 h4 {
@@ -417,6 +430,7 @@ footer i:hover {
 
 .carousel-inner {
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .carousel-inner:hover {
@@ -676,6 +690,7 @@ form {
   background-size: cover;
   height: 300px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .nleftm1:hover {
@@ -688,6 +703,7 @@ form {
   background-size: cover;
   height: 300px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .nleftm2:hover {
@@ -724,6 +740,7 @@ form {
   background-size: cover;
   height: 300px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .nleftm5:hover {
@@ -736,6 +753,7 @@ form {
   background-size: cover;
   height: 300px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .nleftm6:hover {
@@ -748,6 +766,7 @@ form {
   background-size: cover;
   height: 300px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .nleftb1:hover {
@@ -760,6 +779,7 @@ form {
   background-size: cover;
   height: 300px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .nleftb2:hover {
@@ -772,6 +792,7 @@ form {
   background-size: cover;
   height: 300px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .nleftb3:hover {
@@ -918,6 +939,7 @@ h5.thankyou {
 .patternsbox {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 .patternsbox {
@@ -934,10 +956,14 @@ h5.thankyou {
 }
 .pattern1 h4 {
   font-size: 15px;
-  padding: 0px;
-  margin: 0px;
+  padding: 10px;
   text-align: center;
   color: #49f543;
+  background-color: #456384;
+  margin: 0px !important;
+}
+.pattern1 input {
+  margin-bottom: 15px;
 }
 
 .fotop1 {
@@ -947,6 +973,7 @@ h5.thankyou {
   height: 300px;
   margin-bottom: 15px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .fotop1:hover {
@@ -955,10 +982,14 @@ h5.thankyou {
 
 .pattern2 h4 {
   font-size: 15px;
-  padding: 0px;
-  margin: 0px;
+  padding: 10px;
   text-align: center;
   color: #49f543;
+  background-color: #456384;
+  margin: 0px !important;
+}
+.pattern2 input {
+  margin-bottom: 15px;
 }
 
 .fotop2 {
@@ -968,6 +999,7 @@ h5.thankyou {
   height: 300px;
   margin-bottom: 15px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .fotop2:hover {
@@ -976,10 +1008,14 @@ h5.thankyou {
 
 .pattern3 h4 {
   font-size: 15px;
-  padding: 0px;
-  margin: 0px;
+  padding: 10px;
   text-align: center;
   color: #49f543;
+  background-color: #456384;
+  margin: 0px !important;
+}
+.pattern3 input {
+  margin-bottom: 15px;
 }
 
 .fotop3 {
@@ -989,6 +1025,7 @@ h5.thankyou {
   height: 300px;
   margin-bottom: 15px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .fotop3:hover {
@@ -997,10 +1034,14 @@ h5.thankyou {
 
 .pattern4 h4 {
   font-size: 15px;
-  padding: 0px;
-  margin: 0px;
+  padding: 10px;
   text-align: center;
   color: #49f543;
+  background-color: #456384;
+  margin: 0px !important;
+}
+.pattern4 input {
+  margin-bottom: 15px;
 }
 
 .fotop4 {
@@ -1010,6 +1051,7 @@ h5.thankyou {
   height: 300px;
   margin-bottom: 15px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .fotop4:hover {
@@ -1018,10 +1060,14 @@ h5.thankyou {
 
 .pattern5 h4 {
   font-size: 15px;
-  padding: 0px;
-  margin: 0px;
+  padding: 10px;
   text-align: center;
   color: #49f543;
+  background-color: #456384;
+  margin: 0px !important;
+}
+.pattern5 input {
+  margin-bottom: 15px;
 }
 
 .fotop5 {
@@ -1031,6 +1077,7 @@ h5.thankyou {
   height: 300px;
   margin-bottom: 15px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .fotop5:hover {
@@ -1039,10 +1086,14 @@ h5.thankyou {
 
 .pattern6 h4 {
   font-size: 15px;
-  padding: 0px;
-  margin: 0px;
+  padding: 10px;
   text-align: center;
   color: #49f543;
+  background-color: #456384;
+  margin: 0px !important;
+}
+.pattern6 input {
+  margin-bottom: 15px;
 }
 
 .fotop6 {
@@ -1052,6 +1103,7 @@ h5.thankyou {
   height: 300px;
   margin-bottom: 15px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .fotop6:hover {
@@ -1060,10 +1112,14 @@ h5.thankyou {
 
 .pattern7 h4 {
   font-size: 15px;
-  padding: 0px;
-  margin: 0px;
+  padding: 10px;
   text-align: center;
   color: #49f543;
+  background-color: #456384;
+  margin: 0px !important;
+}
+.pattern7 input {
+  margin-bottom: 15px;
 }
 
 .fotop7 {
@@ -1073,6 +1129,7 @@ h5.thankyou {
   height: 300px;
   margin-bottom: 15px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .fotop7:hover {
@@ -1081,10 +1138,14 @@ h5.thankyou {
 
 .pattern8 h4 {
   font-size: 15px;
-  padding: 0px;
-  margin: 0px;
+  padding: 10px;
   text-align: center;
   color: #49f543;
+  background-color: #456384;
+  margin: 0px !important;
+}
+.pattern8 input {
+  margin-bottom: 15px;
 }
 
 .fotop8 {
@@ -1094,6 +1155,7 @@ h5.thankyou {
   height: 300px;
   margin-bottom: 15px;
   filter: grayscale(100%);
+  transition: 0.9s;
 }
 
 .patterns h4 {
@@ -1128,8 +1190,10 @@ h5.thankyou {
   text-align: center;
   padding-left: 50px;
   padding-right: 50px;
+  margin-bottom: 15px;
 }
 .customlength h6 {
+  font-size: 15px;
   margin: 0px;
   color: #49f543;
 }
