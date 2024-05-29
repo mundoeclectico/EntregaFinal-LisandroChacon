@@ -27,7 +27,7 @@
   src: url(./FONT/NovaRound-Book.ttf);
 }
 @font-face {
-  font-family: ASTON;
+  font-family: BISKIT;
   src: url(./FONT/Biysk.ttf);
 }
 @font-face {
@@ -399,7 +399,7 @@ footer i:hover {
 }
 
 .products {
-  font-size: 50px;
+  font-size: 30px;
   color: #ff59bf;
 }
 
@@ -537,7 +537,7 @@ p.p2 {
 
 /* GALERY */
 .gallery1 {
-  font-size: 50px;
+  font-size: 30px;
   color: #ff59bf;
 }
 
@@ -643,7 +643,7 @@ p.p2 {
 
 /* CONTACT */
 .contact1 {
-  font-size: 50px;
+  font-size: 30px;
   color: #ff59bf;
   padding: 10px;
   background-color: #2b3f54;
@@ -788,6 +788,8 @@ h6 {
 .btn-primary {
   margin-top: 15px;
   margin-bottom: 10px;
+  background-color: #152231;
+  border-color: #456384;
 }
 
 .btn-primary:hover {
@@ -860,12 +862,12 @@ h5.thankyou {
 }
 
 .customtx p {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .customshop {
-  font-size: 50px;
+  font-size: 30px;
   background-color: #2b3f54;
   margin: 0px;
 }
@@ -1083,6 +1085,7 @@ h5.thankyou {
   text-align: center;
   color: #49f543;
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .customlength {
