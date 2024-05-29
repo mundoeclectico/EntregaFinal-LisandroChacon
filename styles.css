@@ -142,7 +142,7 @@ a.navbar-brand:hover {
   margin-right: 10px;
   color: #49f543;
   text-align: left;
-  text-shadow: 1px 1px 5px #fff;
+  text-shadow: 1px 1px 5px #ff59bf;
 }
 
 .technoware {
@@ -151,7 +151,7 @@ a.navbar-brand:hover {
   margin-top: 10px;
   font-size: 100px;
   color: #ff59bf;
-  text-shadow: 3px 3px 5px #fff;
+  text-shadow: 3px 3px 5px #49f543;
 }
 
 .animated-element {
@@ -939,7 +939,6 @@ h5.thankyou {
 .patternsbox {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
 }
 
 .patternsbox {
@@ -956,14 +955,10 @@ h5.thankyou {
 }
 .pattern1 h4 {
   font-size: 15px;
-  padding: 10px;
+  padding: 0px;
+  margin: 0px;
   text-align: center;
   color: #49f543;
-  background-color: #456384;
-  margin: 0px !important;
-}
-.pattern1 input {
-  margin-bottom: 15px;
 }
 
 .fotop1 {
@@ -982,14 +977,10 @@ h5.thankyou {
 
 .pattern2 h4 {
   font-size: 15px;
-  padding: 10px;
+  padding: 0px;
+  margin: 0px;
   text-align: center;
   color: #49f543;
-  background-color: #456384;
-  margin: 0px !important;
-}
-.pattern2 input {
-  margin-bottom: 15px;
 }
 
 .fotop2 {
@@ -1008,14 +999,10 @@ h5.thankyou {
 
 .pattern3 h4 {
   font-size: 15px;
-  padding: 10px;
+  padding: 0px;
+  margin: 0px;
   text-align: center;
   color: #49f543;
-  background-color: #456384;
-  margin: 0px !important;
-}
-.pattern3 input {
-  margin-bottom: 15px;
 }
 
 .fotop3 {
@@ -1034,14 +1021,10 @@ h5.thankyou {
 
 .pattern4 h4 {
   font-size: 15px;
-  padding: 10px;
+  padding: 0px;
+  margin: 0px;
   text-align: center;
   color: #49f543;
-  background-color: #456384;
-  margin: 0px !important;
-}
-.pattern4 input {
-  margin-bottom: 15px;
 }
 
 .fotop4 {
@@ -1060,14 +1043,10 @@ h5.thankyou {
 
 .pattern5 h4 {
   font-size: 15px;
-  padding: 10px;
+  padding: 0px;
+  margin: 0px;
   text-align: center;
   color: #49f543;
-  background-color: #456384;
-  margin: 0px !important;
-}
-.pattern5 input {
-  margin-bottom: 15px;
 }
 
 .fotop5 {
@@ -1086,14 +1065,10 @@ h5.thankyou {
 
 .pattern6 h4 {
   font-size: 15px;
-  padding: 10px;
+  padding: 0px;
+  margin: 0px;
   text-align: center;
   color: #49f543;
-  background-color: #456384;
-  margin: 0px !important;
-}
-.pattern6 input {
-  margin-bottom: 15px;
 }
 
 .fotop6 {
@@ -1112,14 +1087,10 @@ h5.thankyou {
 
 .pattern7 h4 {
   font-size: 15px;
-  padding: 10px;
+  padding: 0px;
+  margin: 0px;
   text-align: center;
   color: #49f543;
-  background-color: #456384;
-  margin: 0px !important;
-}
-.pattern7 input {
-  margin-bottom: 15px;
 }
 
 .fotop7 {
@@ -1138,14 +1109,10 @@ h5.thankyou {
 
 .pattern8 h4 {
   font-size: 15px;
-  padding: 10px;
+  padding: 0px;
+  margin: 0px;
   text-align: center;
   color: #49f543;
-  background-color: #456384;
-  margin: 0px !important;
-}
-.pattern8 input {
-  margin-bottom: 15px;
 }
 
 .fotop8 {
@@ -1190,10 +1157,8 @@ h5.thankyou {
   text-align: center;
   padding-left: 50px;
   padding-right: 50px;
-  margin-bottom: 15px;
 }
 .customlength h6 {
-  font-size: 15px;
   margin: 0px;
   color: #49f543;
 }

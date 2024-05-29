@@ -174,7 +174,7 @@ a.navbar-brand:hover{
     margin-right: 10px;
     color: $color7;
     text-align: left;
-    text-shadow: 1px 1px 5px $color6;
+    text-shadow: 1px 1px 5px $color4;
 
 }
 
@@ -184,7 +184,7 @@ a.navbar-brand:hover{
     margin-top: 10px;
     font-size: 100px;
     color: $color4;
-    text-shadow: 3px 3px 5px $color6;
+    text-shadow: 3px 3px 5px $color7;
 
 }
 
@@ -939,7 +939,6 @@ h5.thankyou{
 .patternsbox {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
 }
 
 .patternsbox {
@@ -959,14 +958,10 @@ h5.thankyou{
 .pattern1{
     h4{
         font-size: 15px;
-        padding: 10px;
+        padding: 0px;
+        margin: 0px;
         text-align: center;
         color: $color7;
-        background-color: $color3;
-        margin: 0px !important;
-    }
-    input{
-        margin-bottom: 15px;
     }
 }
 
@@ -986,17 +981,13 @@ h5.thankyou{
 
 
 .pattern2{
-    
     h4{
         font-size: 15px;
-        padding: 10px;
+        padding: 0px;
+        margin: 0px;
         text-align: center;
         color: $color7;
-        background-color: $color3;
-        margin: 0px !important;
-    }
-    input{
-        margin-bottom: 15px;
+        
     }
 }
 
@@ -1016,17 +1007,12 @@ h5.thankyou{
 
 
 .pattern3{
-    
     h4{
         font-size: 15px;
-        padding: 10px;
+        padding: 0px;
+        margin: 0px;
         text-align: center;
         color: $color7;
-        background-color: $color3;
-        margin: 0px !important;
-    }
-    input{
-        margin-bottom: 15px;
     }
 }
 
@@ -1048,14 +1034,10 @@ h5.thankyou{
 .pattern4{
     h4{
         font-size: 15px;
-        padding: 10px;
+        padding: 0px;
+        margin: 0px;
         text-align: center;
         color: $color7;
-        background-color: $color3;
-        margin: 0px !important;
-    }
-    input{
-        margin-bottom: 15px;
     }
 }
 
@@ -1074,17 +1056,12 @@ h5.thankyou{
 }
 
 .pattern5{
-    
     h4{
         font-size: 15px;
-        padding: 10px;
+        padding: 0px;
+        margin: 0px;
         text-align: center;
         color: $color7;
-        background-color: $color3;
-        margin: 0px !important;
-    }
-    input{
-        margin-bottom: 15px;
     }
 }
 
@@ -1104,17 +1081,12 @@ h5.thankyou{
 
 
 .pattern6{
-    
     h4{
         font-size: 15px;
-        padding: 10px;
+        padding: 0px;
+        margin: 0px;
         text-align: center;
         color: $color7;
-        background-color: $color3;
-        margin: 0px !important;
-    }
-    input{
-        margin-bottom: 15px;
     }
 }
 
@@ -1133,17 +1105,12 @@ h5.thankyou{
 }
 
 .pattern7{
-    
     h4{
         font-size: 15px;
-        padding: 10px;
+        padding: 0px;
+        margin: 0px;
         text-align: center;
         color: $color7;
-        background-color: $color3;
-        margin: 0px !important;
-    }
-    input{
-        margin-bottom: 15px;
     }
 }
 
@@ -1165,14 +1132,10 @@ h5.thankyou{
 .pattern8{
     h4{
         font-size: 15px;
-        padding: 10px;
+        padding: 0px;
+        margin: 0px;
         text-align: center;
         color: $color7;
-        background-color: $color3;
-        margin: 0px !important;
-    }
-    input{
-        margin-bottom: 15px;
     }
 }
 
@@ -1218,13 +1181,11 @@ h5.thankyou{
 .customlength{
     text-align: center;
     h6{
-        font-size: 15px;
         margin: 0px;
         color: $color7;
     }
     padding-left: 50px;
     padding-right: 50px;
-    margin-bottom: 15px;
 }
 
 @media (max-width: 1000px) {
