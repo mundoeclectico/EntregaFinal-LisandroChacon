@@ -264,7 +264,9 @@ h3{
     margin: 0 75px; 
     transition: all 0.9s;
 }
-
+.item6 p{
+    color: $color7;
+}
 .item p:hover {
     font-size: 40px;
 }
@@ -380,16 +382,10 @@ footer{
     text-align: center;
     color: #fff;
     font-size: 30px;
-    padding: 10px;
-    .container-fluid{
-    padding: 0px;
-}
-}
-.container-fluid.nosotros{
-    padding: 0px;
 }
 footer{
-    padding-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 footer p{
     font-size: 10px;
@@ -428,7 +424,15 @@ footer i:hover{
 }
 
 .carousel-indicators{
-    top: 0 !important;
+    top: 1 !important;
+}
+
+.carousel-inner{
+    filter: grayscale(100%);
+}
+
+.carousel-inner:hover{
+    filter: none;
 }
 
 .carousel-inner img {
@@ -436,13 +440,8 @@ footer i:hover{
 }
 
 .carousel-inner img{
-    filter: grayscale(100%);
     height: 100%;
     object-fit: cover;
-}
-
-.carousel-inner img:hover {
-    filter: none; 
 }
 
 .carousel-container {
@@ -455,7 +454,7 @@ footer i:hover{
     bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
-    padding: 10px;
+    padding: 40px;
     z-index: 10;
 }
 
@@ -675,12 +674,20 @@ form{
     filter: grayscale(100%);
 }
 
+.nleftm1:hover{
+    filter: none;
+}
+
 .nleftm2{
     background-image: url(./MULTIMEDIA/seleccion/malon2.jpg);
     background-position: center;
     background-size: cover;
     height: 300px;
     filter: grayscale(100%);
+}
+
+.nleftm2:hover{
+    filter: none;
 }
 
 .nleftm3{
@@ -691,12 +698,20 @@ form{
     filter: grayscale(100%);
 }
 
+.nleftm3:hover{
+    filter: none;
+}
+
 .nleftm4{
     background-image: url(./MULTIMEDIA/seleccion/malon4.jpg);
     background-position: center;
     background-size: cover;
     height: 300px;
     filter: grayscale(100%);
+}
+
+.nleftm4:hover{
+    filter: none;
 }
 
 .nleftm5{
@@ -707,6 +722,10 @@ form{
     filter: grayscale(100%);
 }
 
+.nleftm5:hover{
+    filter: none;
+}
+
 .nleftm6{
     background-image: url(./MULTIMEDIA/seleccion/malon6.jpg);
     background-position: center;
@@ -714,12 +733,21 @@ form{
     height: 300px;
     filter: grayscale(100%);
 }
+
+.nleftm6:hover{
+    filter: none;
+}
+
 .nleftb1{
     background-image: url(./MULTIMEDIA/seleccion/bundle1.jpg);
     background-position: center;
     background-size: cover;
     height: 300px;
     filter: grayscale(100%);
+}
+
+.nleftb1:hover{
+    filter: none;
 }
 
 .nleftb2{
@@ -730,12 +758,20 @@ form{
     filter: grayscale(100%);
 }
 
+.nleftb2:hover{
+    filter: none;
+}
+
 .nleftb3{
     background-image: url(./MULTIMEDIA/seleccion/bundle3.jpg);
     background-position: center;
     background-size: cover;
     height: 300px;
     filter: grayscale(100%);
+}
+
+.nleftb3:hover{
+    filter: none;
 }
 
 @media (max-width: 750px) {
@@ -1157,6 +1193,10 @@ h5.thankyou{
     height: 250px;
 }
 
+.fotoc1:hover{
+    filter: none;
+}
+
 .closing2{
     height: 350px;
     h4{
@@ -1176,6 +1216,10 @@ h5.thankyou{
     background-position: center;
     filter: grayscale(100%);
     height: 250px;
+}
+
+.fotoc2:hover{
+    filter: none;
 }
 
 .explain{
