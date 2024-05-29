@@ -110,6 +110,12 @@ body{
     margin-left: 50px;
 }
 
+@media (max-width: 800px) {
+    .navbar-brand {
+        margin-left: 30px;
+}
+}
+
 a.navbar-brand:hover{
     color: $color4 !important;
 }
@@ -164,11 +170,10 @@ a.navbar-brand:hover{
 
 .inicio1 p {
     font-size: 30px;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-right: 10px;
-    margin-top: 200px;
     color: $color7;
-    text-align: right;
+    text-align: left;
 }
 
 .technoware {
@@ -186,8 +191,6 @@ a.navbar-brand:hover{
 @media (max-width: 750px) {
     .inicio1 p {
         font-size: 13px !important;
-        margin-top: 0px;
-        text-align: left;
     }
 
     .technoware {
@@ -236,7 +239,7 @@ h3{
     grid-template-rows: 1fr 1fr; 
 }
 
-@media (max-width: 745px) {
+@media (max-width: 800px) {
     .contenedor {
         grid-template-columns: 1fr;
         grid-template-rows: auto;}
@@ -637,6 +640,14 @@ p.p2{
     width: 100% !important;
 }
 /* CONTACT */
+
+.contact1{
+    font-size: 50px;
+    color: $color4;
+    padding: 10px;
+    background-color: #2b3f54;
+    margin: 0px;
+}
 form{
     height: 450px;
     align-content: center;
@@ -660,7 +671,7 @@ form{
     background-image: url(./MULTIMEDIA/seleccion/malon1.jpg);
     background-position: center;
     background-size: cover;
-    height: 650px;
+    height: 300px;
     filter: grayscale(100%);
 }
 
@@ -668,7 +679,7 @@ form{
     background-image: url(./MULTIMEDIA/seleccion/malon2.jpg);
     background-position: center;
     background-size: cover;
-    height: 650px;
+    height: 300px;
     filter: grayscale(100%);
 }
 
@@ -676,7 +687,7 @@ form{
     background-image: url(./MULTIMEDIA/seleccion/malon3.jpg);
     background-position: center;
     background-size: cover;
-    height: 650px;
+    height: 300px;
     filter: grayscale(100%);
 }
 
@@ -684,7 +695,7 @@ form{
     background-image: url(./MULTIMEDIA/seleccion/malon4.jpg);
     background-position: center;
     background-size: cover;
-    height: 650px;
+    height: 300px;
     filter: grayscale(100%);
 }
 
@@ -692,7 +703,7 @@ form{
     background-image: url(./MULTIMEDIA/seleccion/malon5.jpg);
     background-position: center;
     background-size: cover;
-    height: 650px;
+    height: 300px;
     filter: grayscale(100%);
 }
 
@@ -700,14 +711,14 @@ form{
     background-image: url(./MULTIMEDIA/seleccion/malon6.jpg);
     background-position: center;
     background-size: cover;
-    height: 650px;
+    height: 300px;
     filter: grayscale(100%);
 }
 .nleftb1{
     background-image: url(./MULTIMEDIA/seleccion/bundle1.jpg);
     background-position: center;
     background-size: cover;
-    height: 650px;
+    height: 300px;
     filter: grayscale(100%);
 }
 
@@ -715,7 +726,7 @@ form{
     background-image: url(./MULTIMEDIA/seleccion/bundle2.jpg);
     background-position: center;
     background-size: cover;
-    height: 650px;
+    height: 300px;
     filter: grayscale(100%);
 }
 
@@ -723,7 +734,7 @@ form{
     background-image: url(./MULTIMEDIA/seleccion/bundle3.jpg);
     background-position: center;
     background-size: cover;
-    height: 650px;
+    height: 300px;
     filter: grayscale(100%);
 }
 
@@ -739,7 +750,7 @@ form{
 
 @media (max-width: 750px) {
     .purchase {
-        height: 1900px;
+        height: 1700px;
     }
 }
 
@@ -804,14 +815,13 @@ h5.thankyou{
     }
 }
 
-
 .aboutme2{
     height: 500px;
     align-content: center;
 }
-@media (max-width: 1200px){ 
+@media (max-width: 1000px){ 
     .aboutme2{
-        height: 500px;
+        height: 800px;
     }
 }
 .aboutme2 h5{
@@ -824,7 +834,7 @@ h5.thankyou{
     margin-left: 25px;
     margin-right: 25px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 // CUSTOM
@@ -846,8 +856,13 @@ h5.thankyou{
         }
 }
 
+.customtx p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 .customshop{
-    font-size: 75px;
+    font-size: 50px;
     background-color: #2b3f54;
     margin: 0px;
 }
@@ -1110,7 +1125,7 @@ h5.thankyou{
 
 .finishing{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
 }
 .closings {
     display: grid;
