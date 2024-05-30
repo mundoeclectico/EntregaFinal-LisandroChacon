@@ -163,6 +163,7 @@ a.navbar-brand:hover{
     background-image: url(./MULTIMEDIA/seleccion/inicio1.png);
     background-position: center right;
     background-size: cover;
+    width: 100%;
     padding: 50px;
     height: calc(100vh - 125px);
     overflow: hidden; 
@@ -174,7 +175,7 @@ a.navbar-brand:hover{
     margin-right: 10px;
     color: $color7;
     text-align: left;
-    text-shadow: 1px 1px 5px $color4;
+    text-shadow: 1px 1px 5px $color6;
 
 }
 
@@ -184,7 +185,7 @@ a.navbar-brand:hover{
     margin-top: 10px;
     font-size: 100px;
     color: $color4;
-    text-shadow: 3px 3px 5px $color7;
+    text-shadow: 3px 3px 5px $color6;
 
 }
 
@@ -214,24 +215,27 @@ h2{
 }
 
 h3{
-    color: $color4;
+    color: $color6;
     font-family: ASTON;
     font-size: 20px;
-    text-align: center;
-    margin-top: 20px;
+    text-align: left;
+    margin-top: 25px;
+    margin-left: 60px;
 }
 
 .nright{
     align-content: center;
     background-color: $color2;
+    padding: 0px;
 }
 
 .nright p{
-    text-align: center;
+    font-family: Arial;
+    text-align: justify;
     color: $color6;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-bottom: 15px;
+    margin-left: 60px;    
+    padding-right: 60px;
+    margin-bottom: 25px;
 }
 
 .contenedor {
@@ -299,12 +303,15 @@ h3{
 .typebox{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    height: 300px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .typebox {
         grid-template-columns: 1fr;
-        grid-template-rows: auto;}
+        
+        height: 900px;
+        }
 }
 
 .foto1{
@@ -313,23 +320,36 @@ h3{
     background-position: center;
     text-align: center;
         h4{
-            text-shadow: 2px 2px 5px $color4;
+            text-shadow: 2px 2px 5px $color6;
+            margin-top: 15px;
+        }
+        p{
+            margin-top: 40px;
+            margin-right: 60px;
+            margin-left: 60px;
+            color: $color6;
+            text-align: justify;
+            text-shadow: 2px 2px 5px black;
         }
 }
 
 .foto1 h4{
     text-align: center;
-    color: $color7;
+    color: $color4;
     padding-left: 0px !important;
 }
 
 .foto1 i{
-    background-color: $color4;
-    margin-top: 250px;
+    background-color: $color2;  
     padding: 10px;
     border-radius: 25px;
-    margin-bottom: 50px;
     color: $color6;
+    margin-top: 15px;
+}
+
+.foto1 i:hover{
+    background-color: $color7;
+    color: $color3;
 }
 
 .foto2{
@@ -337,25 +357,38 @@ h3{
     background-size: cover;
     background-position: center;
     text-align: center;
-    h4{
-        text-shadow: 2px 2px 5px $color4;
-    }
+        h4{
+            text-shadow: 2px 2px 5px $color6;
+            margin-top: 15px;
+        }
+        p{
+            margin-top: 40px;
+            margin-right: 60px;
+            margin-left: 60px;
+            color: $color6;
+            text-align: justify;
+            text-shadow: 2px 2px 5px black;
+        }
 }
 
 .foto2 h4{
     text-align: center;
-    color: $color7;
+    color: $color4;
     padding-left: 0px !important;
 }
 
 
 .foto2 i{
-    background-color: $color4;
-    margin-top: 250px;
+    background-color: $color2;  
     padding: 10px;
     border-radius: 25px;
-    margin-bottom: 50px;
     color: $color6;
+    margin-top: 15px;
+}
+
+.foto2 i:hover{
+    background-color: $color7;
+    color: $color3;
 }
 
 .foto3{
@@ -363,24 +396,36 @@ h3{
     background-size: cover;
     background-position: center;
     text-align: center;
-    h4{
-        text-shadow: 2px 2px 5px $color4;
-    }
+        h4{
+            text-shadow: 2px 2px 5px $color6;
+            margin-top: 15px;
+        }
+        p{
+            margin-top: 40px;
+            margin-right: 60px;
+            margin-left: 60px;
+            color: $color6;
+            text-align: justify;
+            text-shadow: 2px 2px 5px black;
+        }
+}
+
+.foto3 i:hover{
+    background-color: $color7;
+    color: $color3;
 }
 
 .foto3 h4{
     text-align: center;
-    color: $color7;
+    color: $color4;
     padding-left: 0px !important;
     
 }
 
 .foto3 i{
-    background-color: $color4;
-    margin-top: 250px;
+    background-color: $color2;  
     padding: 10px;
     border-radius: 25px;
-    margin-bottom: 50px;
     color: $color6;
 }
 
@@ -417,6 +462,8 @@ footer i:hover{
 
 .redes a{
     text-decoration: none;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 /* PDODUCTS */
 
@@ -509,6 +556,7 @@ footer i:hover{
 }
 
 .text1 p{
+    font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 0px;
     font-size: 25px;
     text-align: center;
@@ -811,7 +859,7 @@ form{
 
 @media (max-width: 750px) {
     .purchase {
-        height: 1700px;
+        height: 1850px;
     }
 }
 
@@ -867,24 +915,29 @@ h5.thankyou{
 
 .aboutme1{
     background-image: url(./MULTIMEDIA/INICIO/CHORI.jpg);
-    background-position: center bottom 40%;
+    background-position: center bottom 47%;
     background-size: cover;
-    height: 500px;
+    height: 200px;
     filter: grayscale(100%);
+    transition: 0.9s;
 }
-@media (max-width: 1200px){
+.aboutme1:hover{
+    filter: none;
+}
+@media (max-width: 1000px){
     .aboutme1{
-        height: 500px;
+        height: 300px;
     }
 }
 
 .aboutme2{
-    height: 500px;
+    padding: 0px !important;
+    height: 350px;
     align-content: center;
 }
 @media (max-width: 1000px){ 
     .aboutme2{
-        height: 800px;
+        height: 750px;
     }
 }
 .aboutme2 h5{
@@ -895,9 +948,9 @@ h5.thankyou{
 .aboutme2 h6{
     margin-bottom: 50px;
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 50px;
     text-align: justify;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 // CUSTOM
@@ -912,16 +965,33 @@ h5.thankyou{
         h3{
             padding-top: 15px;
             margin-top: 0px;
+            text-align: left;
+            margin-left: 60px;
+        }
+        h4{
+            font-family: Arial, Helvetica, sans-serif;
+            padding-top: 15px;
+            margin-top: 0px;
             text-align: center;
         }
         p{
             margin-top: 25px;
+            text-align: left;
+            margin-left: 60px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-right: 50px;
         }
 }
 
-.customtx p{
-    margin-left: 20px;
-    margin-right: 20px;
+@media (max-width: 500px) {
+    .custom{
+        h3{
+            margin-left: 40px;
+        }
+        p{
+            margin-left: 40px;
+        }
+    }
 }
 
 .customshop{
@@ -961,7 +1031,7 @@ h5.thankyou{
         padding: 0px;
         margin: 0px;
         text-align: center;
-        color: $color7;
+        color: $color6;
     }
 }
 
@@ -1190,8 +1260,8 @@ h5.thankyou{
 
 @media (max-width: 1000px) {
     .customlength {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
 
@@ -1270,8 +1340,8 @@ h5.thankyou{
 
 @media (max-width: 1000px) {
     .explain {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 40px;
+        padding-right: 40px;
     }
 }
 
@@ -1300,7 +1370,7 @@ h5.thankyou{
 
 @media (max-width: 750px) {
     .personalinfo {
-        margin-left: 15px;
-        margin-right: 15px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 }
