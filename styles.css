@@ -58,6 +58,10 @@ body {
   padding-top: 125px;
 }
 
+.container-fluid {
+  padding: 0px;
+}
+
 .navbar {
   background-color: #152231;
   padding-top: 0px !important;
@@ -707,16 +711,27 @@ p.p2 {
   color: #ff59bf;
   padding: 10px;
   background-color: #2b3f54;
+  padding-left: 60px;
   margin: 0px;
 }
 
-form {
+@media (max-width: 800px) {
+  .contact1 {
+    padding-left: 40px;
+  }
+}
+.formcontact {
   height: 450px;
   align-content: center;
-  padding-left: 1.5em;
-  margin-right: 25px;
+  padding-left: 60px;
+  margin-right: 40px;
 }
 
+@media (max-width: 800px) {
+  .formcontact {
+    padding-left: 40px;
+  }
+}
 .form-check-label {
   padding-left: 24px;
 }
@@ -851,12 +866,49 @@ form {
   }
 }
 .purchase {
-  height: 1450px;
+  height: 1550px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.purchase h5 {
+  font-size: 40px;
+  font-family: ASTON;
+  color: #2b3f54;
+  text-align: left;
+}
+.purchase h6 {
+  font-size: 20px;
+  font-family: ASTON;
+  color: #2b3f54;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.form-check label {
+  font-size: 15px;
+}
+
+.form-check-input:checked {
+  background-color: #ff59bf !important;
+  border-color: #49f543;
+}
+
+.btn-primary {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  background-color: #152231;
+  border-color: #456384;
+}
+
+.btn-primary:hover {
+  background-color: #ff59bf;
+  border-color: #49f543;
 }
 
 @media (max-width: 750px) {
   .purchase {
     height: 1850px;
+    padding-left: 20px;
   }
 }
 h5 {
@@ -964,8 +1016,8 @@ h5.thankyou {
 .custom h3 {
   padding-top: 15px;
   margin-top: 0px;
-  text-align: left;
-  margin-left: 60px;
+  text-align: center;
+  color: #ff59bf;
 }
 .custom h4 {
   font-family: Arial, Helvetica, sans-serif;
@@ -974,11 +1026,10 @@ h5.thankyou {
   text-align: center;
 }
 .custom p {
-  margin-top: 25px;
-  text-align: left;
+  text-align: center;
   margin-left: 60px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-right: 50px;
+  margin-right: 40px;
 }
 
 @media (max-width: 500px) {
@@ -1046,7 +1097,7 @@ h5.thankyou {
   padding: 0px;
   margin: 0px;
   text-align: center;
-  color: #49f543;
+  color: #fff;
 }
 
 .fotop2 {
@@ -1068,7 +1119,7 @@ h5.thankyou {
   padding: 0px;
   margin: 0px;
   text-align: center;
-  color: #49f543;
+  color: #fff;
 }
 
 .fotop3 {
@@ -1090,7 +1141,7 @@ h5.thankyou {
   padding: 0px;
   margin: 0px;
   text-align: center;
-  color: #49f543;
+  color: #fff;
 }
 
 .fotop4 {
@@ -1112,7 +1163,7 @@ h5.thankyou {
   padding: 0px;
   margin: 0px;
   text-align: center;
-  color: #49f543;
+  color: #fff;
 }
 
 .fotop5 {
@@ -1134,7 +1185,7 @@ h5.thankyou {
   padding: 0px;
   margin: 0px;
   text-align: center;
-  color: #49f543;
+  color: #fff;
 }
 
 .fotop6 {
@@ -1156,7 +1207,7 @@ h5.thankyou {
   padding: 0px;
   margin: 0px;
   text-align: center;
-  color: #49f543;
+  color: #fff;
 }
 
 .fotop7 {
@@ -1178,7 +1229,7 @@ h5.thankyou {
   padding: 0px;
   margin: 0px;
   text-align: center;
-  color: #49f543;
+  color: #fff;
 }
 
 .fotop8 {

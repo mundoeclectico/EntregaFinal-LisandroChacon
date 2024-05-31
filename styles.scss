@@ -84,7 +84,9 @@ body{
     padding-top: 125px;
 }
 
-
+.container-fluid{
+    padding: 0px;
+}
 
 .navbar{
     background-color: #152231;
@@ -711,15 +713,30 @@ p.p2{
     color: $color4;
     padding: 10px;
     background-color: #2b3f54;
+    padding-left: 60px;
     margin: 0px;
 }
-form{
+
+@media (max-width: 800px) {
+    .contact1 {
+        padding-left: 40px;
+    }
+}
+
+.formcontact{
     height: 450px;
     align-content: center;
     
-    padding-left: 1.5em;
-    margin-right: 25px;
+    padding-left: 60px;
+    margin-right: 40px;
 }
+
+@media (max-width: 800px) {
+    .formcontact {
+        padding-left: 40px;
+    }
+}
+
 .form-check-label{
     padding-left: 24px;
 }
@@ -854,12 +871,48 @@ form{
 }
 
 .purchase{
-    height: 1450px;
+    height: 1550px;
+    padding-left: 40px;
+    padding-right: 40px;
+    h5{
+    font-size: 40px;
+    font-family: ASTON;
+    color: $color2;
+    text-align: left;    
 }
+h6{
+    font-size: 20px;
+    font-family: ASTON;
+    color: $color2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+}
+.form-check label{
+    font-size: 15px;
+}
+
+.form-check-input:checked{
+    background-color: $color4 !important;
+    border-color: $color7;
+}
+.btn-primary{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: $color1;
+    border-color: $color3;
+}
+.btn-primary:hover{
+    background-color: $color4;
+    border-color: $color7;
+}
+
 
 @media (max-width: 750px) {
     .purchase {
         height: 1850px;
+        padding-left: 20px;
     }
 }
 
@@ -965,8 +1018,8 @@ h5.thankyou{
         h3{
             padding-top: 15px;
             margin-top: 0px;
-            text-align: left;
-            margin-left: 60px;
+            text-align: center;
+            color: $color4;
         }
         h4{
             font-family: Arial, Helvetica, sans-serif;
@@ -975,11 +1028,11 @@ h5.thankyou{
             text-align: center;
         }
         p{
-            margin-top: 25px;
-            text-align: left;
+            // margin-top: 25px;
+            text-align: center;
             margin-left: 60px;
             font-family: Arial, Helvetica, sans-serif;
-            margin-right: 50px;
+            margin-right: 40px;
         }
 }
 
@@ -1056,7 +1109,7 @@ h5.thankyou{
         padding: 0px;
         margin: 0px;
         text-align: center;
-        color: $color7;
+        color: $color6;
         
     }
 }
@@ -1082,7 +1135,7 @@ h5.thankyou{
         padding: 0px;
         margin: 0px;
         text-align: center;
-        color: $color7;
+        color: $color6;
     }
 }
 
@@ -1107,7 +1160,7 @@ h5.thankyou{
         padding: 0px;
         margin: 0px;
         text-align: center;
-        color: $color7;
+        color: $color6;
     }
 }
 
@@ -1131,7 +1184,7 @@ h5.thankyou{
         padding: 0px;
         margin: 0px;
         text-align: center;
-        color: $color7;
+        color: $color6;
     }
 }
 
@@ -1156,7 +1209,7 @@ h5.thankyou{
         padding: 0px;
         margin: 0px;
         text-align: center;
-        color: $color7;
+        color: $color6;
     }
 }
 
@@ -1180,7 +1233,7 @@ h5.thankyou{
         padding: 0px;
         margin: 0px;
         text-align: center;
-        color: $color7;
+        color: $color6;
     }
 }
 
@@ -1205,7 +1258,7 @@ h5.thankyou{
         padding: 0px;
         margin: 0px;
         text-align: center;
-        color: $color7;
+        color: $color6;
     }
 }
 
